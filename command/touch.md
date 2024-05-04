@@ -44,6 +44,9 @@ touch ex2
 ```shell
 touch file{1..5}.txt
 ```
+//将txt1文件的时间属性更改为txt2的时间
+touch txt1 -r txt2
+
 
 创建 `job1.md` 文件，并写入 `job 1`
 
